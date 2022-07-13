@@ -28,8 +28,6 @@
         <input matInput>
       </mat-form-field>
     
-
-      
       <mat-form-field (click)="fileInput.click()" class="example-full-width" appearance="fill">
         <mat-label>Linked Documents</mat-label>
         <input #proxyInput (focus)="files.length < 1 ? proxyInput.blur() : true" readonly matInput>
