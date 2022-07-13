@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { DocumentUploaderComponent } from './document-uploader/document-uploader.component';
 
 @Component({
   selector: 'app-root',
@@ -6,9 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'file-selector';
-  
   files: File[] = [];
+
+  constructor(public dialog: MatDialog) { }
   
   onFilesSelected(): void {
     const inputNode: any = document.querySelector('#file');
@@ -25,5 +27,9 @@ export class AppComponent {
     if (index >= 0) {
       this.files.splice(index, 1);
     }
+  }
+  
+  openDocumentUploader(): void {
+    this.dialog.open(DocumentUploaderComponent);
   }
 }

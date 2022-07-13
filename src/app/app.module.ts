@@ -6,11 +6,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SpacerDirective } from './directives/spacer.directive';
+import { DocumentUploaderComponent } from './document-uploader/document-uploader.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SpacerDirective
+    SpacerDirective,
+    DocumentUploaderComponent
   ],
   imports: [
     BrowserModule,

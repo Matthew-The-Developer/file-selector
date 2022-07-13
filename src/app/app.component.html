@@ -3,8 +3,8 @@
 </mat-toolbar>
 
 <mat-card>
-  <mat-card-title class="mat-h2">File Selector</mat-card-title>
-
+  <mat-card-title class="mat-h2">Fake File Form</mat-card-title>
+  
   <mat-card-content>
     <form class="example-form">
       <mat-form-field class="example-full-width" appearance="fill">
@@ -52,7 +52,11 @@
   </mat-card-content>
 
   <mat-card-actions>
-    <button mat-flat-button color="accent">
+    <button
+      (click)="openDocumentUploader()" 
+      color="accent"
+      mat-flat-button 
+    >
       <mat-icon>attach_file</mat-icon>
       Upload Documents
     </button>
