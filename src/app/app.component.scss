@@ -14,8 +14,21 @@
     width: 480px;
     margin: auto;
 
-    .example-full-width {
-      width: 100%;
+    mat-card-content {
+      margin: 0;
+
+      .example-full-width {
+        width: 100%;
+      }
+    }
+
+    mat-card-actions {
+      display: flex;
+      padding: 0 8px 8px 8px;
+
+      mat-icon {
+        font-size: 150%;
+      }
     }
   }
 }

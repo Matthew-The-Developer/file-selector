@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SpacerDirective } from './directives/spacer.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SpacerDirective
   ],
   imports: [
     BrowserModule,
