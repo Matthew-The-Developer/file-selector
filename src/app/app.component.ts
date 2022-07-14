@@ -32,7 +32,7 @@ export class AppComponent {
   openDocumentUploader(): void {
     this.dialog.open(DocumentUploaderComponent, {
       height: 'auto',
-      width: '640px',
+      width: '820px',
       panelClass: 'document-uploader-dialog-container',
       autoFocus: false,
       hasBackdrop: false,

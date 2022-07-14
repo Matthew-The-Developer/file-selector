@@ -110,3 +110,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background:
     overflow: hidden;
   }
 }
+
+.mat-list-base .mat-list-item.file .mat-list-item-content {
+  padding: 0;
+}
