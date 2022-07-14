@@ -12,9 +12,9 @@ This project is for trying to find a solution for both in form file selection an
 - [x] Create file selection for document uploader modal
 - [x] Added document type selection to the document uploader
 - [x] implement file selection removal from the document uploader
+- [x] Add document type select to the fake form
 - [ ] Resolve any edge case behavior with the form field
 - [ ] Figure out if you can append file selection instead of overwriting 
-- [ ] Add document type select to the fake form
 
 ## GitHub Pages
 
