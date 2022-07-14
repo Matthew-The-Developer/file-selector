@@ -7,9 +7,13 @@ This project is for trying to find a solution for both in form file selection an
 - [x] Project setup and Angular Material import
 - [x] Create basic demo form
 - [x] Figure out how to use a form field for multi-file selection using chips
-- [ ] Add colored header to card
+- [x] Add colored header to the modal
+- [x] Create floating dialog for document uploader modal
+- [x] Create file selection for document uploader modal
+- [x] Added document type selection to the document uploader
+- [x] implement file selection removal from the document uploader
 - [ ] Resolve any edge case behavior with the form field
-- [ ] Create floating dialog for file modal
+- [ ] Figure out if you can append file selection instead of overwriting 
 
 ## GitHub Pages
 
