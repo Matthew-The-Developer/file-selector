@@ -9,8 +9,6 @@ import { MedicalDocument, MedicalDocumentType } from './document-uploader.model'
 export class DocumentUploaderComponent {
   files: MedicalDocument[] = [];
 
-  constructor() { }
-
   get medicalDocumentTypes(): string[] {
     return Object.values(MedicalDocumentType);
   }

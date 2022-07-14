@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { DocumentUploaderComponent } from './document-uploader/document-uploader.component';
+import { MedicalDocumentType } from './document-uploader/document-uploader.model';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,10 @@ export class AppComponent {
 
   constructor(public dialog: MatDialog) { }
   
+  get medicalDocumentTypes(): string[] {
+    return Object.values(MedicalDocumentType);
+  }
+
   onFilesSelected(): void {
     const inputNode: any = document.querySelector('#file');
 

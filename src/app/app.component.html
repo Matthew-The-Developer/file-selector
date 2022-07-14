@@ -28,6 +28,15 @@
         <input matInput>
       </mat-form-field>
     
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Document Type</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let type of medicalDocumentTypes" [value]="type">
+            {{ type }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
       <mat-form-field (click)="fileInput.click()" class="example-full-width" appearance="fill">
         <mat-label>Linked Documents</mat-label>
         <input #proxyInput (focus)="files.length < 1 ? proxyInput.blur() : true" readonly matInput>
