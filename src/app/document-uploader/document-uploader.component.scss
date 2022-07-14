@@ -1,0 +1,12 @@
+mat-card {
+  padding: 0 0 24px 0;
+
+  mat-toolbar {
+    height: 56px;
+    border-radius: 4px 4px 8px 8px;
+  }
+
+  mat-card-actions {
+    padding: 0 24px 0 24px;
+  }
+}

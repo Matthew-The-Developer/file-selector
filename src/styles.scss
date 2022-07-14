@@ -103,3 +103,10 @@ $file-selector-theme: mat.define-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: #fafafa; }
+
+.document-uploader-dialog-container {
+  .mat-dialog-container {
+    padding: 0;
+    overflow: hidden;
+  }
+}

@@ -30,6 +30,12 @@ export class AppComponent {
   }
   
   openDocumentUploader(): void {
-    this.dialog.open(DocumentUploaderComponent);
+    this.dialog.open(DocumentUploaderComponent, {
+      height: 'auto',
+      width: '640px',
+      panelClass: 'document-uploader-dialog-container',
+      autoFocus: false,
+      hasBackdrop: false,
+    });
   }
 }
